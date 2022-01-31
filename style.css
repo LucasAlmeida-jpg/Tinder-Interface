@@ -72,7 +72,6 @@ body {
   cursor: pointer;
   color: red;
   font-size: 18px;
-
 }
 .imagebg {
   padding-top: 5px;
@@ -93,7 +92,6 @@ body {
   margin-top: 190px;
   letter-spacing: 4px;
   font-weight: bold;
-  
 }
 
 .middle-part button {
@@ -216,11 +214,11 @@ body {
 #info .juridical h1 {
   margin-bottom: 20px;
 }
-#info .juridical ul li{
+#info .juridical ul li {
   cursor: pointer;
 }
 
-#info .jobs ul li{
+#info .jobs ul li {
   cursor: pointer;
 }
 #info .juridical ul li:hover {
@@ -229,7 +227,6 @@ body {
 
 #info .jobs ul li:hover {
   color: crimson;
-
 }
 
 #info .jobs h1 {
@@ -243,7 +240,7 @@ body {
   color: rgb(56, 49, 49);
 }
 
-#info .social-media a i:hover{
+#info .social-media a i:hover {
   color: crimson;
 }
 
