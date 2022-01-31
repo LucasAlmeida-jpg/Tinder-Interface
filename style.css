@@ -42,7 +42,7 @@ body {
 
 #navbar .options ul li:hover {
   color: crimson;
-  border-bottom: 2px solid crimson;
+  text-decoration: underline;
 }
 #navbar .options ul li {
   margin-left: 30px;
@@ -67,11 +67,12 @@ body {
   margin-left: 30px;
   margin-top: -50px;
   padding: 4px 29px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   cursor: pointer;
   color: red;
   font-size: 18px;
+
 }
 .imagebg {
   padding-top: 5px;
@@ -92,6 +93,7 @@ body {
   margin-top: 190px;
   letter-spacing: 4px;
   font-weight: bold;
+  
 }
 
 .middle-part button {
@@ -214,6 +216,21 @@ body {
 #info .juridical h1 {
   margin-bottom: 20px;
 }
+#info .juridical ul li{
+  cursor: pointer;
+}
+
+#info .jobs ul li{
+  cursor: pointer;
+}
+#info .juridical ul li:hover {
+  color: crimson;
+}
+
+#info .jobs ul li:hover {
+  color: crimson;
+
+}
 
 #info .jobs h1 {
   margin-bottom: 20px;
@@ -224,6 +241,10 @@ body {
   margin-left: 10px;
   font-size: 29px;
   color: rgb(56, 49, 49);
+}
+
+#info .social-media a i:hover{
+  color: crimson;
 }
 
 #info .social-media h1 {
@@ -237,6 +258,11 @@ body {
 #info .questions {
   margin-left: 90px;
   margin-top: 20px;
+  cursor: pointer;
+}
+
+#info .questions ul li:hover {
+  color: crimson;
 }
 
 #download {
