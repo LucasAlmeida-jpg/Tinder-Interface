@@ -4,78 +4,83 @@
   margin: 0;
 }
 
-#navbar {
-  justify-content: center;
-  align-items: center;
-}
-
-#navbar .logo {
-  font-size: 45px;
-  font-weight: 600;
-  margin-top: 15px;
-  margin-left: 27px;
-  cursor: pointer;
-  color: white;
-}
-
 body {
   background: #f5f7fa;
   height: 100vh;
   width: 100%;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
-#navbar .options {
-  display: flex;
+#navbar .logo {
+  font-size: 45px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  left: 22px;
+  top: 2%;
 }
 
 #navbar .options ul {
-  margin-top: -10px;
   display: flex;
-  list-style: none;
-  color: white;
-  margin-left: 180px;
-  font-size: 20px;
-  font-weight: 670px;
   cursor: pointer;
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  position: absolute;
+  top: 4%;
+  left: 190px;
+}
+#navbar .options ul li {
+  margin-left: 30px;
 }
 
 #navbar .options ul li:hover {
   color: crimson;
   text-decoration: underline;
 }
-#navbar .options ul li {
-  margin-left: 30px;
-  margin-top: -30px;
-}
 
-#navbar .end-page {
-  text-transform: uppercase;
-  margin-top: -37px;
-  margin-left: 440px;
-  color: white;
-}
-#navbar .end-page span {
-  margin-left: 5px;
-}
 #navbar .end-page:hover {
   color: crimson;
   cursor: pointer;
 }
 
-#navbar button {
-  margin-left: 30px;
-  margin-top: -50px;
-  padding: 4px 29px;
+#navbar .enter-button {
+  padding: 10px 29px;
   border-radius: 5px;
   border: none;
   cursor: pointer;
   color: red;
   font-size: 18px;
+  position: absolute;
+  right: 22px;
+  top: 3.7%;
 }
+
+.end-page .world {
+  display: flex;
+  position: absolute;
+  right: 150px;
+  top: 5%;
+  color: white;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.end-page .world:hover {
+  color: crimson;
+}
+
+.end-page .world p {
+  margin-left: 9px;
+}
+
+/* Abaixo da NavBar */
 .imagebg {
   padding-top: 5px;
   background-image: url(assets/pexels-sound-on-3756879.jpg);
+  box-shadow: inset 0px 100px 1000px #000000;
   width: 100vw;
   height: 100vh;
   background-position: center;
@@ -391,50 +396,44 @@ footer ul li:hover {
   color: rgb(88, 79, 79);
 }
 
-#myModal .inside-content1 {
-  align-items: center;
-  text-transform: uppercase;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 40px;
-  padding: 12px 0px 10px;
-  margin-top: 20px;
-}
-
-#myModal .inside-content2 {
-  text-transform: uppercase;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 40px;
-  padding: 12px;
-  margin-top: 20px;
-}
-
-#myModal .inside-content3 {
-  color: rgb(88, 79, 79);
-  text-transform: uppercase;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 40px;
-  padding: 12px;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.last-one {
-  margin-bottom: 20px;
-}
-
 #flex-container .inside-content1 {
+  text-transform: uppercase;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 40px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+
+#myModal .inside-content {
+  text-transform: uppercase;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: 20px;
+  list-style: none;
+  cursor: pointer;
+  
+}
+#myModal .inside-content li{
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-
-#flex-container .inside-content2 {
+#myModal .inside-content .nav-button {
+  background-color: red;
+  font-size: 25px;
+}
+#myModal button {
+  color: black;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 #flex-container .inside-content3 {
@@ -443,20 +442,8 @@ footer ul li:hover {
   text-align: center;
 }
 
-#myModal button {
-  color: black;
-  align-items: center;
-  background-color: white;
-  text-transform: uppercase;
-  flex-wrap: nowrap;
-  font-size: 14px;
-}
-
-#myModal button span {
-  right: 920px;
-  position: absolute;
-  font-size: 33px;
-  margin-top: -7px;
+.last-one {
+  margin-bottom: 20px;
 }
 
 #images {
